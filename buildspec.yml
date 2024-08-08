@@ -15,7 +15,6 @@ phases:
   build:
     commands:
       - echo "run test and build docker"
-        AWS_REGION=us-east-1" >> .env.production
       - docker build -t $CONTAINER_NAME .
       - docker tag $CONTAINER_NAME:latest $ECR_REPO/$CONTAINER_NAME:latest
 
