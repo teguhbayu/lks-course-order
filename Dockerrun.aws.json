@@ -1,0 +1,16 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Authentication": {
+    "Bucket": "lks-bayu-jatim",
+    "Key": "config.json"
+  },
+  "Image": {
+    "Name": "852976468951.dkr.ecr.us-east-1.amazonaws.com/lks-order-app"
+  },
+  "Ports": [
+    {
+      "ContainerPort": 8000,
+      "HostPort": 80
+    }
+  ]
+}
