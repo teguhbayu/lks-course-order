@@ -1,9 +1,5 @@
 {
   "AWSEBDockerrunVersion": "1",
-  "Authentication": {
-    "Bucket": "elasticbeanstalk-us-east-1-852976468951",
-    "Key": ".dockercfg"
-  },
   "Image": {
     "Name": "852976468951.dkr.ecr.us-east-1.amazonaws.com/lks-order-app"
   },
